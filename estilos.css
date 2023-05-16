@@ -33,35 +33,49 @@
     right:1vw;
 }
 
-
-
-
-
-#GKCOUMMUNITY{
+.container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "titulo-principal titulo-principal titulo-principal"
+      "contenido contenido contenido"
+      ". . .";}
+  
+.titulo-principal { grid-area: titulo-principal; 
     color: whitesmoke;
     background-color: black;
-
     height: 15vw;
     display:flex;
     justify-content: center;
     align-items: center;    
-
     font-weight: 600;
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: uppercase;
-    
-}
+    text-transform: uppercase;}
 
-#TEXTO-INSPIRADOR{
+.texto-inspirador{
+    position: relative;
+    margin: 2vw;
+    text-transform: uppercase;
+    font: 1.5rem 'MutatorSans', sans-serif;
+    font-weight: 500;
+    text-align: justify;}
+
+.contenido { grid-area: contenido; }
+  
+
+
+
+
+.texto-inspirador{
     position: relative;
     margin: 5vw;
     padding: 5px;
     text-transform: uppercase;
     font: 1.5rem 'MutatorSans', sans-serif;
-    font-weight: 500;
-
-}
+    font-weight: 500;}
 
 #SECCIONES{
     display:inline;
