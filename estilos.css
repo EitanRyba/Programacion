@@ -33,6 +33,7 @@
     right:1vw;
 }
 
+/*
 .container {  display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -43,6 +44,7 @@
       "contenido contenido contenido"
       ". . .";}
   
+      */
 .titulo-principal { grid-area: titulo-principal; 
     color: whitesmoke;
     background-color: black;
@@ -64,10 +66,6 @@
     text-align: justify;}
 
 .contenido { grid-area: contenido; }
-  
-
-
-
 
 .texto-inspirador{
     position: relative;
@@ -84,5 +82,61 @@
 li{
     display:inline;
     margin-left: 5vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Modern Football';
+  src: url('fonts/against_modern_football.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Football Attack';
+  src: url('fonts/Football\ Attack\ Demo.ttf') format('truetype');
+}
+
+body {
+  background-image: url("/Imagenes/dibu_atajando.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding-top: 100px;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Modern Football';
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+p {
+  font-size: 30px;
+  font-family:'Football Attack';
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+  margin-top: 50px;
+}
+
+button {
+  margin: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: #009933;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #008026;
+  cursor: pointer;
 }
 
