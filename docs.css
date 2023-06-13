@@ -1,0 +1,48 @@
+.container {
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .back-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #009933;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #008026;
+  }
+  .brand-image {
+    max-width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  #brandImages {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .product-image {
+    max-width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  #productImages {
+    display: flex;
+    flex-wrap: wrap;
+  }
