@@ -6,7 +6,9 @@ form{
   font-size: 30px;
 }
 body {
-  background-image: url(Imagenes/dibu_atajando.jpg);
+  background-image: url(Imagenes/dibukolito.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
   
   .buttons {
